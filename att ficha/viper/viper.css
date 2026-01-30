@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+.tela {
+    background-color: #000;
+    background-image: url(viperfundo.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.ficha-container {
+    background-color: #0E7331;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.personagem-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    border: 3px solid #14D921;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.personagem-nome {
+    color: #14D921;
+    font-size: 2.5em;
+    margin: 10px 0 5px;
+}
+
+.personagem-titulo {
+    color: #201626;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.ficha-bio p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #14D921;
+}
+
+.ficha-habilidades h3 {
+    margin-top: 20px;
+    color: #201626;
+    border-bottom: 2px solid #14D921;
+    padding-bottom: 5px;
+}
+
+.ficha-habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ficha-habilidades li {
+    background-color: #a1bd48;
+    border: 1px solid #14D921;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.habilidades:hover {
+    background-color: #201626;
+    color: #00b441;
+
+}
+
+.ficha-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.espaco {
+    display: inline-grid;
+    gap: 30px;
+}
+
+.lista-habilidades {
+  list-style: none;
+  padding: 0;
+}
+
+.habilidades {
+  overflow: hidden;
+  cursor: pointer;
+  transition: height 1ms ease;
+  text-align: left;
+}
+
+.habilidades p {
+  margin: 8px 0 0;
+  text-align: justify;
+}
+
+h1, h2, h3, li {
+    font-family: Bebas Neue;
+    color: #201626;
+}
+
+.habilidades:hover p{
+    color: #0DA643;
+}

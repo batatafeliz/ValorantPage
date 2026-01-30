@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: #111823;
+}
+
+.tela {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(valofund.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.card-login {
+    background-color: #111F35;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 350px;
+    margin-top: 200px;
+}
+
+.card-login h1 {
+    color: #E5D9B6;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: Bebas Neue;
+}
+
+.botao-acao {
+    display: block; 
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 15px; 
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#botao-login-principal {
+    background-color: #F63049; 
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px; 
+}
+
+#botao-login-principal:hover {
+    background-color: #8A244B;
+}
+
+label {
+    font-family: Amarna;
+    color: #D8C9A7;
+}
+
+input {
+    border-radius: 10px;
+    width: 75%;
+    height: 20px;
+    color: #D8C9A7;
+    background-color: #111F35;
+    border: 2px solid #F63049;
+    outline: none;
+}
+

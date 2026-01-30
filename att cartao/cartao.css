@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    background-color: #2c1230;
+    background-image: url(valogo.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tela {
+    font-family: 'Verdana', sans-serif;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.cartao-container {
+    background:none; 
+    width: 350px;
+    text-align: center;
+    /* Box Model */
+    border: 2px solid #9f7aa5; 
+    padding: 30px; 
+    margin: 20px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgba(202, 92, 195, 0.651); 
+}
+
+.nome-completo {
+    color: #000000; 
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cargo {
+    color: #000000;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.contato {
+    color: #ffa0db; 
+    font-size: 0.9em;
+}
+
+.bombasticsideeye {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.bombasticsideeye.visible {
+    opacity: 1;
+    animation: aparecer 2s ease;
+}
+
+.bombasticsideeye img {
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
+}
+
+.botao-acao {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 15px; 
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Bebas Neue;
+}
+
+#certinho {
+    background-color: #f397ff; 
+    color: #000000;
+    font-weight: bold;
+    margin-top: 20px; 
+}
+
+#certinho:hover {
+    background-color: #cb5eda;
+}
+
+.botao-secundario {
+    background-color: #ffcaf2;
+    color: #ff0000;
+    font-family: Bebas Neue;
+}
+
+.botao-secundario:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
